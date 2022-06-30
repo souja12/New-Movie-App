@@ -1,0 +1,68 @@
+body {
+  background: #141414;
+  color: #ffffff;
+}
+
+.movie-app > .row {
+  overflow-x: auto;
+}
+
+.image-container {
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.image-container:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.head {
+  text-align: center;
+  background-color: rgb(21, 219, 219);
+  height: 70px;
+  color: rgb(66, 28, 236);
+  margin: auto;
+  font-style: initial;
+}
+
+.bgm1 {
+  text-align: center;
+  background-color: rgb(59, 223, 223);
+  height: 90px;
+  color: rgb(230, 17, 17);
+  margin: auto;
+}
+
+.body1 {
+  background-image: linear-gradient(rgb(107, 238, 238), rgb(95, 60, 221));
+}
+
+.btn {
+  background-color: red;
+}
+
+.li {
+  margin-left: 25px;
+}
